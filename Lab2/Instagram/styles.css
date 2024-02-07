@@ -18,7 +18,11 @@ input{
     flex-direction: row;
     align-content: center;
     flex-wrap: nowrap;
+    /*justify-content контролирует,
+    где flex элементы располагаются на главной оси.*/
     justify-content: center;
+    /*align-items контролирует,
+    где на поперечной оси находятся flex элементы.*/
     align-items: center;
     height: 90%;
 }
