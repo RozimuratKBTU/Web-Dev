@@ -6,6 +6,7 @@
 /*Container*/
 
 .container{
+
     /*background-color: #2b963d;*/
     display: flex;
 
@@ -19,14 +20,19 @@
 }
 
 .container-l{
+
     position: relative;
-    right: -800px;
+    left:1300px;
 }
 .container{
+    /*position: absolute;*/
+    /*left: 330px;*/
     display: flex;
     text-align: left;
 }
 .container-r-submit{
+    /*margin-left: 1200px;*/
+
     position: relative;
     left: -800px;
     background-color: white;
@@ -40,6 +46,9 @@
 }
 /*User Inputs*/
 .user-inputs{
+
+    /*position: absolute;*/
+    /*width: 120px;*/
     background: #ffffff;
     color: #1d2129;
     height: 22px;
@@ -50,10 +59,15 @@
     width: 330px;
     border-radius: 6px;
     border:1px solid #dddfe2;
+
 }
 
+/*#input1{*/
+/*    margin-left: -150px;*/
+/*}*/
+
 .user-inputs:hover{
-    ;
+
     background: #ffffff;
     color: #1d2129;
     height: 22px;
@@ -64,6 +78,9 @@
     width: 330px;
     border-radius: 6px;
     border:2px solid #0065f6;
+
+
+
 }
 
 .btn-login{
