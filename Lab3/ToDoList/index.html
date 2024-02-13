@@ -2,23 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>To Do List</title>
 
-    <link href="style.css" rel="stylesheet">
+    <title>ToDo List</title>
 
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h3><i>To Do List</i></h3>
-        <div id="new-task">
-            <input type="text" id="myInput" placeholder="Title...">
-            <button class="addBtn">Add</button>
-        </div>
 
-        <ul id="tasks"></ul>
-    </div>
-    <script src="a.js"></script>
+<div id="todo-list">
 
+    <h1>ToDo List</h1>
+
+    <input type="text" id="new-task" placeholder="New Task">
+
+    <button onclick="addTask()">Add</button>
+
+    <ul id="tasks">
+        <!-- Tasks will go here -->
+    </ul>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
-
