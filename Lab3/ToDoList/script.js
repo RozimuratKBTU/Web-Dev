@@ -11,8 +11,11 @@ function addTask() {
     if(taskInput.value.trim() !== '') {
         taskList.append(li);
         taskInput.value = '';
+
     } else {
+
         alert('Please enter a task.');
+        askInput.value = '';
     }
 }
 
