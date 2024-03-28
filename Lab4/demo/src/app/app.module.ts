@@ -22,9 +22,12 @@ import { ShippingComponent } from './shipping/shipping.component';
       {path: 'products/:productId', component: ProductDetailsComponent},
       {path: 'cart', component: CartComponent},
     ]),
-    TopBarComponent
+    TopBarComponent,
+    // TopBarComponent,
+
   ],
   declarations: [
+
     AppComponent,
     // TopBarComponent,
     ProductListComponent,
@@ -33,9 +36,7 @@ import { ShippingComponent } from './shipping/shipping.component';
     CartComponent,
     ShippingComponent,
   ],
-  bootstrap: [
-    AppComponent
-  ]
+  bootstrap: [ AppComponent]
 })
 export class AppModule { }
 

@@ -24,14 +24,16 @@
           <button type="button">
             Go to shop
           </button>
+
         </a>
-        <p>
-          <a href="https://web.whatsapp.com/" target="_blank">
-            <button type="button" (click)="share()">
-              Share
-            </button>
-          </a>
-        </p>
+
+
+
+        <div>
+        <a href = "https://t.me/share/url?url={{product.link}}&text={text}"><img src = "https://clipground.com/images/telegram-app-logo-png-3.png" alt ="Telegram" height = "50" style = "margin-top: 30px;margin-left: 20px;">  </a>
+
+
+
         <app-product-alerts
           [product]="product"
           (notify)="onNotify()">
@@ -40,4 +42,5 @@
       </div>
     </div>
   </div>
+</div>
 </div>
