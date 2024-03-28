@@ -1,0 +1,22 @@
+<html>
+
+
+<body>
+<!--  {{title}}-->
+<!--<p [class]="myclass">-->
+<!--  Rozi-->
+<!--  {{title}}-->
+<!--</p>-->
+<p (click)="changeColor('green')" [style.background-color]="mycolor" >
+  Rozik
+</p>
+<input type="text" #colorElement>
+<button (click)="changeColor(colorElement.value)"> chang</button>
+
+<ul>
+  <li *ngFor="let item of [1,2,3]">
+    {{item}}
+  </li>
+</ul>
+</body>
+</html>
