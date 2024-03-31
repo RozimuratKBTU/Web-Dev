@@ -9,4 +9,6 @@ import { Product } from '../products';
 export class ProductAlertsComponent {
   @Input() product: Product | undefined;
   @Output() notify = new EventEmitter();
+  @Input() product2!: Product;
+  @Output() notify2 = new EventEmitter<unknown>();
 }
